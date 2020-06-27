@@ -7,6 +7,7 @@ def find_even_values(src)
     int.each do|num|
       ora<<num if num.even?
     end
+    p ora
   end
 
 end
