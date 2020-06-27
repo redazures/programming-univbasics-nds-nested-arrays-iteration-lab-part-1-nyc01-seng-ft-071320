@@ -11,4 +11,4 @@ def find_even_values(src)
 end
 
 apple=[ [10, 11], [99, 50, 3, 4], [23, 41]]
-find_even_values(apple)
+p find_even_values(apple)
