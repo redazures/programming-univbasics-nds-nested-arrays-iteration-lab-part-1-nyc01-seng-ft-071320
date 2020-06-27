@@ -3,6 +3,7 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   ora=[]
+  subora=[]
   src.each do |ara|
       ara.each do |int|
         ora<<int if int.even?
