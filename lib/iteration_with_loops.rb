@@ -4,7 +4,7 @@ def find_even_values(src)
   # Output all even values in each nested array
   ora=[]
   src.each do |int|
-      ora<<int if num.even?
+      ora<<int if int.even?
     end
   ora
   end
