@@ -8,6 +8,7 @@ def find_even_values(src)
         ora<<int if int.even?
       end
     end
+    ora
 end
 
 apple=[ [10, 11], [99, 50, 3, 4], [23, 41]]
